@@ -14,7 +14,7 @@ def find_id(n):
 
 search = int(input("Please Enter Player ID: "))
 player_data = find_id(search)
-if id:
+if player_data:
     print "ID:      " + player_data['id']
     print "Player:  " + player_data['name']
     print "Country: " + player_data['country']
